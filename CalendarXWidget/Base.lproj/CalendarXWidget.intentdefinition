@@ -226,7 +226,7 @@
 			<key>INIntentIneligibleForSuggestions</key>
 			<true/>
 			<key>INIntentLastParameterTag</key>
-			<integer>55</integer>
+			<integer>57</integer>
 			<key>INIntentName</key>
 			<string>WidgetConfiguration</string>
 			<key>INIntentParameters</key>
@@ -764,6 +764,86 @@
 					</array>
 					<key>INIntentParameterTag</key>
 					<integer>55</integer>
+					<key>INIntentParameterType</key>
+					<string>Boolean</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Remote URL</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>K7rU2L</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>12</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataDefaultValue</key>
+						<string>https://raw.githubusercontent.com/antergone/CalendarX/master/CalendarXLib/Sources/Resources/festival_solar_tiaoxiu.json</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>remoteURL</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+					</array>
+					<key>INIntentParameterTag</key>
+					<integer>56</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Use remote holiday data</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>P4xT7m</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>13</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataDefaultValue</key>
+						<true/>
+						<key>INIntentParameterMetadataFalseDisplayName</key>
+						<string>false</string>
+						<key>INIntentParameterMetadataFalseDisplayNameID</key>
+						<string>N6xT2c</string>
+						<key>INIntentParameterMetadataTrueDisplayName</key>
+						<string>true</string>
+						<key>INIntentParameterMetadataTrueDisplayNameID</key>
+						<string>U4mR8n</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>useRemoteTiaoxiuData</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+					</array>
+					<key>INIntentParameterTag</key>
+					<integer>57</integer>
 					<key>INIntentParameterType</key>
 					<string>Boolean</string>
 				</dict>

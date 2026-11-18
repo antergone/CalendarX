@@ -1,5 +1,5 @@
 //
-//  MenubarController.swift
+//  MenuBarController.swift
 //  CalendarX
 //
 //  Created by zm on 2022/1/4.

@@ -31,6 +31,9 @@ struct MainScreen: View {
 
     private let festivalStore = FestivalStore()
 
+    @ObservedObject
+    private var tiaoxiuStore = TiaoxiuStore.shared
+
     var body: some View {
 
         CalendarView(

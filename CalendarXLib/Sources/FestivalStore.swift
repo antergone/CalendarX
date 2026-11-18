@@ -31,7 +31,6 @@ public struct FestivalStore {
 
     typealias TypeA = [String: String]
     typealias TypeB = [String: [String]]
-    typealias TypeC = [String: [String: Tiaoxiu]]
 
     @MainActor
     enum Lunar {
@@ -50,7 +49,6 @@ public struct FestivalStore {
     enum Solar {
         static let all = Bundle.module.jsonModel(resource: "festival_solar_all") ?? TypeB()
         static let primary = Bundle.module.jsonModel(resource: "festival_solar_primary") ?? TypeA()
-        static let tiaoxiu = Bundle.module.jsonModel(resource: "festival_solar_tiaoxiu") ?? TypeC()
     }
 
     @MainActor
@@ -85,7 +83,9 @@ extension FestivalStore {
         lunar(date: date) ?? jieqi(date: date) ?? solar(date: date) ?? date.lunarDayTitle
     }
 
-    public func tiaoxiu(date: AppDate) -> Tiaoxiu { Solar.tiaoxiu[date.sYKey]?[date.sMDKey] ?? .ordinary }
+    public func tiaoxiu(date: AppDate) -> Tiaoxiu {
+        TiaoxiuStore.shared.tiaoxiu(year: date.sYKey, monthDay: date.sMDKey)
+    }
 
     private func lunar(date: AppDate) -> String? {
         let key = Lunar.chuxi[date.sYKey] != date.sMDKey ? date.lMDKey : "0100"

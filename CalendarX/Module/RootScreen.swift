@@ -80,6 +80,8 @@ extension RootScreen {
         case .menubarSettings: MenubarScreen(menubarStore: menubarStore)
         case .appearanceSettings: AppearanceScreen()
         case .calendarSettings: CalendarScreen()
+        case .tiaoxiuData: TiaoxiuDataScreen()
+        case .tiaoxiuRemoteURL: TiaoxiuRemoteURLScreen()
         case .update: UpdateScreen(updater: updater)
         case .about: AboutScreen()
         default: EmptyView()

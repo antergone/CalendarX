@@ -15,23 +15,40 @@ extension LargeWidget {
         }
 
         func getTimeline(for configuration: Intent, in context: Context, completion: @escaping (Timeline<Entry>) -> Void) {
-            let date = Date()
+            Task { @MainActor in
+                let useRemoteData = configuration.useRemoteTiaoxiuData?.boolValue ?? true
+                let configuredURL = configuration.remoteURL?
+                    .trimmingCharacters(in: .whitespacesAndNewlines)
+                let remoteURL =
+                    configuredURL.flatMap { $0.isEmpty ? nil : $0 }
+                    ?? TiaoxiuStore.defaultRemoteURL.absoluteString
 
-            if #available(macOSApplicationExtension 14.0, *), date.canUpdateDate {
-                Store.today()
-            }
-
-            let entry =
-                if #available(macOSApplicationExtension 14.0, *) {
-                    Entry(date: Store.date, configuration: configuration)
+                if useRemoteData,
+                    TiaoxiuStore.shared.setRemoteURL(remoteURL)
+                {
+                    _ = await TiaoxiuStore.shared.update()
                 } else {
-                    Entry(date: date, configuration: configuration)
+                    _ = TiaoxiuStore.shared.restoreBundledData()
                 }
-            let timeline = Timeline(
-                entries: [entry],
-                policy: .after(date.startOfTomorrow)
-            )
-            completion(timeline)
+
+                let date = Date()
+
+                if #available(macOSApplicationExtension 14.0, *), date.canUpdateDate {
+                    Store.today()
+                }
+
+                let entry =
+                    if #available(macOSApplicationExtension 14.0, *) {
+                        Entry(date: Store.date, configuration: configuration)
+                    } else {
+                        Entry(date: date, configuration: configuration)
+                    }
+                let timeline = Timeline(
+                    entries: [entry],
+                    policy: .after(date.startOfTomorrow)
+                )
+                completion(timeline)
+                }
         }
     }
 }

@@ -13,6 +13,7 @@ A lightweight macOS app for displaying calendar and time
 
 ## Features
 - [x] Chinese statutory holidays and other festivals
+- [x] Manual remote holiday data updates with a custom HTTPS address
 - [x] Custom menubar styles (icon, date & time）
 - [x] Dark mode
 - [x] Localization (简体中文、English)
@@ -20,7 +21,27 @@ A lightweight macOS app for displaying calendar and time
 - [x] SwiftUI / Async / Await
 
 ## Compatibility
-- Requires **macOS 11.0** or later
+- Requires **macOS 12.0** or later
+
+## Remote Holiday Data
+
+CalendarX includes a bundled holiday data file and can also download updates manually from a remote HTTPS address.
+
+1. Open **Settings > Calendar > Holiday data**.
+2. Select **Remote address** to configure a custom HTTPS endpoint.
+3. Select **Download holiday data** to fetch and apply the latest data.
+
+The default remote address is:
+
+```text
+https://raw.githubusercontent.com/antergone/CalendarX/master/CalendarXLib/Sources/Resources/festival_solar_tiaoxiu.json
+```
+
+Remote data overrides bundled data by year. Years missing from the remote file continue to use the bundled version.
+
+To return to the bundled data, select **Restore bundled data**. The custom remote address is retained for future manual updates.
+
+The widget stores its own cache. When editing the widget, configure **Remote URL** separately, or disable **Use remote holiday data** to keep the widget on bundled data.
 
 ## Changelogs
 - [简体中文](changelogs/CHANGELOG_SC.md)

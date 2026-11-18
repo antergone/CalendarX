@@ -1,5 +1,5 @@
 //
-//  MenubarStyle.swift
+//  MenuBarStyle.swift
 //  CalendarX
 //
 //  Created by zm on 2023/2/17.

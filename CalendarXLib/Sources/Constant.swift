@@ -43,7 +43,11 @@ extension Bundle {
 
 @MainActor
 extension UserDefaults {
-    public static let group = UserDefaults(suiteName: "group.\(Bundle.identifier)")
+    public static let group = UserDefaults(suiteName: AppGroup.identifier)
+}
+
+public enum AppGroup {
+    public static let identifier = "group.com.alpha.calendarx"
 }
 
 public enum AppStorageKey {

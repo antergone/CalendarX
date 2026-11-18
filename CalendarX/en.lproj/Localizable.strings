@@ -21,6 +21,29 @@
 "calendar.showWeekNumbers" = "Show Week Numbers";
 "calendar.startWeekOn" = "Start week on";
 "calendar.keyboardShortcut" = "Keyboard Shortcut";
+"calendar.tiaoxiuData" = "Holiday data";
+"calendar.tiaoxiuSource" = "Source";
+"calendar.tiaoxiuBuiltIn" = "Bundled";
+"calendar.tiaoxiuRemote" = "Remote";
+"calendar.tiaoxiuYears" = "Years";
+"calendar.tiaoxiuLastUpdated" = "Last updated";
+"calendar.tiaoxiuNeverUpdated" = "Not downloaded yet";
+"calendar.tiaoxiuUpdate" = "Download holiday data";
+"calendar.tiaoxiuUpdating" = "Downloading…";
+"calendar.tiaoxiuUpdated" = "Holiday data updated.";
+"calendar.tiaoxiuUnchanged" = "Holiday data is already up to date.";
+"calendar.tiaoxiuNetworkError" = "Could not download holiday data. Existing data is unchanged.";
+"calendar.tiaoxiuInvalidData" = "The downloaded holiday data is invalid. Existing data is unchanged.";
+"calendar.tiaoxiuStorageError" = "Could not save the downloaded holiday data.";
+"calendar.tiaoxiuServerError" = "The holiday data server returned an error.";
+"calendar.tiaoxiuRemoteAddress" = "Remote address";
+"calendar.tiaoxiuRemoteAddressHint" = "Use an HTTPS address that returns CalendarX holiday JSON. Widget data is configured separately when editing the widget; turn off remote holiday data there to use bundled data.";
+"calendar.tiaoxiuSaveAddress" = "Save address";
+"calendar.tiaoxiuDefaultAddress" = "Use default address";
+"calendar.tiaoxiuAddressSaved" = "Remote address saved.";
+"calendar.tiaoxiuAddressInvalid" = "Enter a valid HTTPS address.";
+"calendar.tiaoxiuRestoreBundled" = "Restore bundled data";
+"calendar.tiaoxiuRestoredBundled" = "Bundled holiday data restored.";
 
 
 "appearance.accentColor" = "Accent color";

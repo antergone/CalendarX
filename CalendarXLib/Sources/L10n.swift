@@ -32,6 +32,29 @@ public enum L10n {
         public static let showHolidays = "calendar.showHolidays".l10nKey
         public static let showWeekNumbers = "calendar.showWeekNumbers".l10nKey
         public static let keyboardShortcut = "calendar.keyboardShortcut".l10nKey
+        public static let tiaoxiuData = "calendar.tiaoxiuData".l10nKey
+        public static let tiaoxiuSource = "calendar.tiaoxiuSource".l10nKey
+        public static let tiaoxiuBuiltIn = "calendar.tiaoxiuBuiltIn".l10nKey
+        public static let tiaoxiuRemote = "calendar.tiaoxiuRemote".l10nKey
+        public static let tiaoxiuYears = "calendar.tiaoxiuYears".l10nKey
+        public static let tiaoxiuLastUpdated = "calendar.tiaoxiuLastUpdated".l10nKey
+        public static let tiaoxiuNeverUpdated = "calendar.tiaoxiuNeverUpdated".l10nKey
+        public static let tiaoxiuUpdate = "calendar.tiaoxiuUpdate".l10nKey
+        public static let tiaoxiuUpdating = "calendar.tiaoxiuUpdating".l10nKey
+        public static let tiaoxiuUpdated = "calendar.tiaoxiuUpdated".l10nKey
+        public static let tiaoxiuUnchanged = "calendar.tiaoxiuUnchanged".l10nKey
+        public static let tiaoxiuNetworkError = "calendar.tiaoxiuNetworkError".l10nKey
+        public static let tiaoxiuInvalidData = "calendar.tiaoxiuInvalidData".l10nKey
+        public static let tiaoxiuStorageError = "calendar.tiaoxiuStorageError".l10nKey
+        public static let tiaoxiuServerError = "calendar.tiaoxiuServerError".l10nKey
+        public static let tiaoxiuRemoteAddress = "calendar.tiaoxiuRemoteAddress".l10nKey
+        public static let tiaoxiuRemoteAddressHint = "calendar.tiaoxiuRemoteAddressHint".l10nKey
+        public static let tiaoxiuSaveAddress = "calendar.tiaoxiuSaveAddress".l10nKey
+        public static let tiaoxiuDefaultAddress = "calendar.tiaoxiuDefaultAddress".l10nKey
+        public static let tiaoxiuAddressSaved = "calendar.tiaoxiuAddressSaved".l10nKey
+        public static let tiaoxiuAddressInvalid = "calendar.tiaoxiuAddressInvalid".l10nKey
+        public static let tiaoxiuRestoreBundled = "calendar.tiaoxiuRestoreBundled".l10nKey
+        public static let tiaoxiuRestoredBundled = "calendar.tiaoxiuRestoredBundled".l10nKey
     }
 
     @MainActor

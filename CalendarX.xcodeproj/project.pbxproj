@@ -42,15 +42,15 @@
 		9886FCC82B2CE69A00AE22DC /* ScacleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCC32B2CE69A00AE22DC /* ScacleButton.swift */; };
 		9886FCC92B2CE69A00AE22DC /* RowTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCC42B2CE69A00AE22DC /* RowTitleView.swift */; };
 		9886FCCA2B2CE69A00AE22DC /* RotationArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCC52B2CE69A00AE22DC /* RotationArrow.swift */; };
-		9886FCD02B2CE69E00AE22DC /* MenubarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCCD2B2CE69E00AE22DC /* MenubarStyle.swift */; };
+		9886FCD02B2CE69E00AE22DC /* MenuBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCCD2B2CE69E00AE22DC /* MenuBarStyle.swift */; };
 		9886FCE32B2CE6A400AE22DC /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCD42B2CE6A400AE22DC /* AboutScreen.swift */; };
 		9886FCE42B2CE6A400AE22DC /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCD52B2CE6A400AE22DC /* SettingsScreen.swift */; };
 		9886FCE52B2CE6A400AE22DC /* RecsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCD62B2CE6A400AE22DC /* RecsScreen.swift */; };
 		9886FCE62B2CE6A400AE22DC /* MenubarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCD72B2CE6A400AE22DC /* MenubarScreen.swift */; };
 		9886FCE72B2CE6A400AE22DC /* AppearanceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCD82B2CE6A400AE22DC /* AppearanceScreen.swift */; };
 		9886FCE82B2CE6A400AE22DC /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCD92B2CE6A400AE22DC /* CalendarScreen.swift */; };
-		9886FCE92B2CE6A400AE22DC /* MenubarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCDB2B2CE6A400AE22DC /* MenubarController.swift */; };
-		9886FCEA2B2CE6A400AE22DC /* MenubarPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCDC2B2CE6A400AE22DC /* MenubarPopover.swift */; };
+		9886FCE92B2CE6A400AE22DC /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCDB2B2CE6A400AE22DC /* MenuBarController.swift */; };
+		9886FCEA2B2CE6A400AE22DC /* MenuBarPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCDC2B2CE6A400AE22DC /* MenuBarPopover.swift */; };
 		9886FCEB2B2CE6A400AE22DC /* MenubarSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCDD2B2CE6A400AE22DC /* MenubarSchedule.swift */; };
 		9886FCEC2B2CE6A400AE22DC /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCDF2B2CE6A400AE22DC /* RootScreen.swift */; };
 		9886FCED2B2CE6A400AE22DC /* DateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9886FCE02B2CE6A400AE22DC /* DateScreen.swift */; };
@@ -143,15 +143,15 @@
 		9886FCC32B2CE69A00AE22DC /* ScacleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScacleButton.swift; sourceTree = "<group>"; };
 		9886FCC42B2CE69A00AE22DC /* RowTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowTitleView.swift; sourceTree = "<group>"; };
 		9886FCC52B2CE69A00AE22DC /* RotationArrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationArrow.swift; sourceTree = "<group>"; };
-		9886FCCD2B2CE69E00AE22DC /* MenubarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenubarStyle.swift; sourceTree = "<group>"; };
+		9886FCCD2B2CE69E00AE22DC /* MenuBarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarStyle.swift; sourceTree = "<group>"; };
 		9886FCD42B2CE6A400AE22DC /* AboutScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
 		9886FCD52B2CE6A400AE22DC /* SettingsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		9886FCD62B2CE6A400AE22DC /* RecsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecsScreen.swift; sourceTree = "<group>"; };
 		9886FCD72B2CE6A400AE22DC /* MenubarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenubarScreen.swift; sourceTree = "<group>"; };
 		9886FCD82B2CE6A400AE22DC /* AppearanceScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceScreen.swift; sourceTree = "<group>"; };
 		9886FCD92B2CE6A400AE22DC /* CalendarScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
-		9886FCDB2B2CE6A400AE22DC /* MenubarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenubarController.swift; sourceTree = "<group>"; };
-		9886FCDC2B2CE6A400AE22DC /* MenubarPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenubarPopover.swift; sourceTree = "<group>"; };
+		9886FCDB2B2CE6A400AE22DC /* MenuBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		9886FCDC2B2CE6A400AE22DC /* MenuBarPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarPopover.swift; sourceTree = "<group>"; };
 		9886FCDD2B2CE6A400AE22DC /* MenubarSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenubarSchedule.swift; sourceTree = "<group>"; };
 		9886FCDF2B2CE6A400AE22DC /* RootScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
 		9886FCE02B2CE6A400AE22DC /* DateScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateScreen.swift; sourceTree = "<group>"; };
@@ -337,7 +337,7 @@
 			children = (
 				984963412D22A72C0043E919 /* Appearance.swift */,
 				9849633F2D22A5590043E919 /* MenubarIcon.swift */,
-				9886FCCD2B2CE69E00AE22DC /* MenubarStyle.swift */,
+				9886FCCD2B2CE69E00AE22DC /* MenuBarStyle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 				9886FD012B2D0E8D00AE22DC /* CalendarXApp.swift */,
 				9886FCDF2B2CE6A400AE22DC /* RootScreen.swift */,
 				9886FCD32B2CE6A400AE22DC /* Settings */,
-				9886FCDA2B2CE6A400AE22DC /* Menubar */,
+				9886FCDA2B2CE6A400AE22DC /* MenuBar */,
 				9886FCDE2B2CE6A400AE22DC /* Calender */,
 			);
 			path = Module;
@@ -368,14 +368,14 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		9886FCDA2B2CE6A400AE22DC /* Menubar */ = {
+		9886FCDA2B2CE6A400AE22DC /* MenuBar */ = {
 			isa = PBXGroup;
 			children = (
-				9886FCDC2B2CE6A400AE22DC /* MenubarPopover.swift */,
-				9886FCDB2B2CE6A400AE22DC /* MenubarController.swift */,
+				9886FCDC2B2CE6A400AE22DC /* MenuBarPopover.swift */,
+				9886FCDB2B2CE6A400AE22DC /* MenuBarController.swift */,
 				9886FCDD2B2CE6A400AE22DC /* MenubarSchedule.swift */,
 			);
-			path = Menubar;
+			path = MenuBar;
 			sourceTree = "<group>";
 		};
 		9886FCDE2B2CE6A400AE22DC /* Calender */ = {
@@ -569,7 +569,7 @@
 				984963462D22C22B0043E919 /* MenubarStore.swift in Sources */,
 				9886FCEB2B2CE6A400AE22DC /* MenubarSchedule.swift in Sources */,
 				9834D5342D2FE36A004BA7CB /* UpdateScreen.swift in Sources */,
-				9886FCE92B2CE6A400AE22DC /* MenubarController.swift in Sources */,
+				9886FCE92B2CE6A400AE22DC /* MenuBarController.swift in Sources */,
 				9886FCC72B2CE69A00AE22DC /* ScacleButtonPicker.swift in Sources */,
 				9886FCBF2B2CE3AC00AE22DC /* Launcher.swift in Sources */,
 				9886FCC92B2CE69A00AE22DC /* RowTitleView.swift in Sources */,
@@ -584,9 +584,9 @@
 				9886FCC62B2CE69A00AE22DC /* TitleView.swift in Sources */,
 				984963422D22A72D0043E919 /* Appearance.swift in Sources */,
 				9849633C2D1C40FF0043E919 /* Authorizer.swift in Sources */,
-				9886FCD02B2CE69E00AE22DC /* MenubarStyle.swift in Sources */,
+				9886FCD02B2CE69E00AE22DC /* MenuBarStyle.swift in Sources */,
 				9886FCE42B2CE6A400AE22DC /* SettingsScreen.swift in Sources */,
-				9886FCEA2B2CE6A400AE22DC /* MenubarPopover.swift in Sources */,
+				9886FCEA2B2CE6A400AE22DC /* MenuBarPopover.swift in Sources */,
 				9886FCEF2B2CE6A400AE22DC /* MainScreen.swift in Sources */,
 				984963442D22A80E0043E919 /* AppStore.swift in Sources */,
 				9886FCE82B2CE6A400AE22DC /* CalendarScreen.swift in Sources */,
@@ -689,7 +689,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 2.3.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.calendarx.intentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -718,7 +718,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 2.3.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.calendarx.intentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -785,7 +785,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -848,7 +848,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -885,7 +885,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 2.3.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.calendarx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -921,7 +921,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 2.3.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.calendarx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -954,7 +954,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 2.3.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.calendarx.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -988,7 +988,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 2.3.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alpha.calendarx.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";

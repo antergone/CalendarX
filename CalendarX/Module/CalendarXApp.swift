@@ -43,6 +43,7 @@ class CalendarXDelegate: NSObject & NSApplicationDelegate {
         let appStore = AppStore()
         let menubarStore = MenubarStore()
         let calendarStore = CalendarStore()
+        let tiaoxiuStore = TiaoxiuStore.shared
         let router = Router()
         let dialog = Dialog()
         let authorizer = Authorizer()
@@ -55,6 +56,7 @@ class CalendarXDelegate: NSObject & NSApplicationDelegate {
             .environmentObject(appStore)
             .environmentObject(menubarStore)
             .environmentObject(calendarStore)
+            .environmentObject(tiaoxiuStore)
             .environmentObject(router)
             .environmentObject(dialog)
         let popover = MenubarPopover(router, rootScreen: rootScreen)

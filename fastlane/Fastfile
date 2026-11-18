@@ -6,7 +6,7 @@ platform :mac do
     ENV["APP_NAME"] = "CalendarX"
     ENV["APP_TAG_NAME"] = last_git_tag
     ENV["APP_BUILD"] = "#{number_of_commits}"
-    ENV["SYS_MIN_VERSION"] = "11.0.0"
+    ENV["SYS_MIN_VERSION"] = "12.0.0"
     ENV["BUILD_PATH"] = "./build"
     ENV["LOG_PATH"] = ENV["BUILD_PATH"] + "/TMP.md"
     ENV["DMG_PATH"] = ENV["BUILD_PATH"] + "/#{ENV["APP_NAME"]}.dmg"

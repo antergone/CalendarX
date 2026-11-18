@@ -1,3 +1,20 @@
+## 2.3.9 - 2026-11-19
+
+### Added
+- Chinese statutory holidays in 2027
+- Manual holiday data updates from the bundled default remote address
+- Custom HTTPS holiday data addresses
+- Restore bundled holiday data without discarding the custom remote address
+- Independent remote holiday settings for widgets
+
+### Changed
+- Remote holiday data now overrides bundled data by year, preserving bundled years missing remotely
+- Minimum supported macOS version is now 12.0
+- Local builds no longer require App Groups or a developer provisioning profile
+
+### Fixed
+- Xcode project file reference capitalization
+---
 ## 2.3.8 beta 2 - 2025-11-30
 
 ### Added
